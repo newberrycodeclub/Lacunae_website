@@ -1,0 +1,52 @@
+/* Colors I am using (From Dr. Rajan):
+Background - #e48168
+Text - #f5e9db
+border/names - #5b4227
+- Connor Layson, Masthead page*/
+
+/*General*/
+.masthead {
+    background-color: #e48168;
+    color: #f5e9db;
+}
+.section {
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 50px;
+}
+#spacer {
+    height: 50px;
+}
+
+/*Grid*/
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    font-size: 25px;
+}
+#grid-child {
+    padding: 5%;
+    border: solid #5b4227;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#grid-child img {
+    clip-path: circle(50%);
+    width: 80px; 
+}
+#grid-child h4 {
+    color: #5b4227;
+    font-family: Encode Sans SC;
+}
+#grid-child p{
+    text-align: left;
+    font-family: Akshar;
+}
