@@ -3,7 +3,7 @@ body, html {
     padding: 0;
 }
 #peachhome {
-    background-color: #e38068;
+    background-color: #e48168;
     margin: 0;
     padding: 5% 0%;
 }
@@ -17,7 +17,7 @@ body, html {
 }
 
 .cream {
-    color: #f4e8da;
+    color: #f5e9db;
 }
 
 .lexend-giga {
@@ -33,7 +33,7 @@ body, html {
     margin-top: 5%;
     margin-bottom: 0%;
     padding: 0;
-    border: 1px solid #f4e8da;
+    border: 1px solid #f5e9db;
     width: 14%;
     font-size: 25px;
     font-family: "Lora", serif;
@@ -43,5 +43,5 @@ body, html {
 }
 
 #hello {
-    background-color: #f4e8da;
+    background-color: #f5e9db;
 }
