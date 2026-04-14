@@ -9,7 +9,7 @@ body, html {
 }
 
 #lacunae {
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Brush Script MT;
     margin: 0;
     padding: 0;
     font-size: 200px;
@@ -21,7 +21,7 @@ body, html {
 }
 
 .lexend-giga {
-  font-family: "Lexend Giga", sans-serif;
+  font-family: Lexend Giga;
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
@@ -42,11 +42,31 @@ body, html {
     font-style: normal;
 }
 
-#hello {
+.hello {
     background-color: #f5e9db;
     display: flex;
+    justify-content: space-around;
+    padding: 5% 5%;
+}
+
+.hello h2 {
+    font-family: Brush Script MT;
+    font-weight: 100;
+    font-size: 90px;
+    color: #e48168;
+    padding: 0;
+    margin: 0;
+}
+
+.hello p {
+    font-family: Akshar;
 }
 
 #book {
     width: 500px;
+}
+
+#write {
+    background-color: #f5e9db;
+    border: 1px solid #e48168;
 }
