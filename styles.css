@@ -44,4 +44,9 @@ body, html {
 
 #hello {
     background-color: #f5e9db;
+    display: flex;
+}
+
+#book {
+    width: 500px;
 }
