@@ -1,8 +1,25 @@
 /* This stuff is for the homepage by Brendon */
-
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #e48168;
+}
+
+.navbar {
+
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks a {
+    display: block;
+    padding: 5px 7px;
+    font-family: Akshar;
+    font-size: 20px;
 }
 
 #peachhome {
