@@ -1,19 +1,28 @@
-/* This stuff is for the homepage by Brendon */
-
+/* For all pages */
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #e48168;
 }
 
-#peachhome {
-    background-color: #e48168;
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks a {
+    display: block;
+    padding: 5px 7px;
+    font-family: Akshar;
+    font-size: 20px;
+}
+
+/* This stuff is for the homepage by Brendon */
+#home {
     margin: 0;
     padding: 5% 0%;
-}
-
-#line {
-    width: 0%;
-    border: 1px solid #f5e9db;
+    color: #f5e9db;
 }
 
 #lacunae {
@@ -24,11 +33,12 @@ body, html {
     font-weight: 100;
 }
 
-.cream {
-    color: #f5e9db;
+#line {
+    width: 0%;
+    border: 1px solid #f5e9db;
 }
 
-.lexend-giga {
+#litmag {
   font-family: Lexend Giga;
   font-size: 25px;
   font-weight: 450;
@@ -42,8 +52,6 @@ body, html {
     width: 15%;
     border: 1px solid #f5e9db;
     font-size: 25px;
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
     font-weight: 100;
 }
 
@@ -61,14 +69,18 @@ body, html {
     margin: 0;
 }
 
-.hello {
+#hello {
     background-color: #f5e9db;
     display: flex;
     justify-content: space-around;
     padding: 10% 5%;
 }
 
-.hello h2 {
+#book {
+    width: 500px;
+}
+
+#hello h2 {
     font-family: Brush Script MT;
     font-weight: 100;
     font-size: 90px;
@@ -77,24 +89,17 @@ body, html {
     margin: 0;
 }
 
-.text {
+.hellotext {
     font-family: Akshar;
     font-size: 20px;
 }
 
-.hello button {
+#hello button {
     color: #e48168;
-    padding: 0% 10%;
-    margin-top: 10%;
-}
-
-#book {
-    width: 500px;
-}
-
-#write {
     background-color: #f5e9db;
     border: 1px solid #e48168;
+    padding: 0% 10%;
+    margin-top: 10%;
     font-family: "Times New Roman", Times, serif;
     font-size: 25px;
 }
