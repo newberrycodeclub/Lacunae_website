@@ -42,7 +42,6 @@ body, html {
   font-family: Lexend Giga;
   font-size: 25px;
   font-weight: 450;
-  font-style: normal;
   padding-top: 2%;
 }
 
@@ -141,4 +140,47 @@ border/names - #5b4227
 #grid-child p{
     text-align: left;
     font-family: Akshar;
+}
+
+/* Contact page styling */
+#contactbody {
+    background-color: #e5d8ca;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin: 0;
+}
+
+.contactheader {
+    color: #e48168;
+    font-family: Lexend Giga;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#contactleft{
+
+}
+
+#contactitle {
+    font-family: Brush Script MT;
+    margin: 0;
+    padding: 0;
+    font-size: 120px;
+    font-weight: 100;
+    color: #e48168;
+}
+
+#contactright {
+    border: 1px solid black;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+.contacttext {
+    font-family: Akshar;
+    font-size: 15px;
 }
