@@ -2,10 +2,16 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
 #peachhome {
     background-color: #e48168;
     margin: 0;
     padding: 5% 0%;
+}
+
+#line {
+    width: 0%;
+    border: 1px solid #f5e9db;
 }
 
 #lacunae {
@@ -22,31 +28,28 @@ body, html {
 
 .lexend-giga {
   font-family: Lexend Giga;
-  font-optical-sizing: auto;
+  font-size: 25px;
   font-weight: 450;
   font-style: normal;
-  padding-top: 10%;
+  padding-top: 2%;
 }
 
 #fall {
-    margin: 0;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    padding: 0;
+    margin-top: 3%;
+    padding: 0%;
+    width: 15%;
     border: 1px solid #f5e9db;
-    width: 14%;
     font-size: 25px;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 100;
-    font-style: normal;
 }
 
 .hello {
     background-color: #f5e9db;
     display: flex;
     justify-content: space-around;
-    padding: 5% 5%;
+    padding: 10% 5%;
 }
 
 .hello h2 {
@@ -58,8 +61,15 @@ body, html {
     margin: 0;
 }
 
-.hello p {
+.text {
     font-family: Akshar;
+    font-size: 20px;
+}
+
+.hello button {
+    color: #e48168;
+    padding: 0% 10%;
+    margin-top: 10%;
 }
 
 #book {
@@ -69,4 +79,6 @@ body, html {
 #write {
     background-color: #f5e9db;
     border: 1px solid #e48168;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
 }
